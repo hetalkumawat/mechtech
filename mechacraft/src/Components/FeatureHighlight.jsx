@@ -8,7 +8,7 @@ const FeatureHighlight = () => {
         {/* Left Section - Image */}
         <div className="feature-image">
           <img
-            src="./src/assets/connect.jpg"
+            src="/assets/connect.jpg"
             alt="MechaCraft Team"
           />
         </div>

@@ -37,35 +37,35 @@ const PartnersSection = () => {
       <div className="partners-container">
         <div className={`partner-item staggered-0 ${isVisible ? "animate" : ""}`}>
           <img
-            src="./src/assets/partner1.png"
+            src="/assets/partner1.png"
             alt="Partner 1"
             className="partner-logo"
           />
         </div>
         <div className={`partner-item staggered-1 ${isVisible ? "animate" : ""}`}>
           <img
-            src="./src/assets/partner2.png"
+            src="/assets/partner2.png"
             alt="Partner 2"
             className="partner-logo"
           />
         </div>
         <div className={`partner-item staggered-2 ${isVisible ? "animate" : ""}`}>
           <img
-            src="./src/assets/partner3.png"
+            src="/assets/partner3.png"
             alt="Partner 3"
             className="partner-logo"
           />
         </div>
         <div className={`partner-item staggered-3 ${isVisible ? "animate" : ""}`}>
           <img
-            src="./src/assets/partner4.png"
+            src="/assets/partner4.png"
             alt="Partner 4"
             className="partner-logo"
           />
         </div>
         <div className={`partner-item staggered-4 ${isVisible ? "animate" : ""}`}>
           <img
-            src="./src/assets/partner5.png"
+            src="/assets/partner5.png"
             alt="Partner 5"
             className="partner-logo"
           />

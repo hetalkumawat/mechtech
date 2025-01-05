@@ -44,7 +44,7 @@ const AboutMechaCraft = () => {
         {/* Right Section - Image */}
         <div className="about-image">
           <img
-            src="./src/assets/about.png"
+            src="/assets/about.png"
             alt="MechaCraft Innovation"
             loading="lazy"
           />

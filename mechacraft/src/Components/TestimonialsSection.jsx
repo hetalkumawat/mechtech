@@ -4,31 +4,31 @@ import "./TestimonialsSection.css";
 const testimonials = [
   {
     id: 1,
-    image: "./src/assets/user1.jpg",
+    image: "/assets/user1.jpg",
     name: "John Doe",
     feedback: "MechaCraft has revolutionized the way we approach automation. A true game-changer!",
   },
   {
     id: 2,
-    image: "./src/assets/user2.jpg",
+    image: "/assets/user2.jpg",
     name: "Jane Smith",
     feedback: "The best platform for integrating robotics into real-world applications. Highly recommend it!",
   },
   {
     id: 3,
-    image: "./src/assets/user3.jpg",
+    image: "/assets/user3.jpg",
     name: "Alice Johnson",
     feedback: "Thanks to MechaCraft, our productivity has skyrocketed. It's simply amazing!",
   },
   {
     id: 4,
-    image: "./src/assets/user1.jpg",
+    image: "/assets/user1.jpg",
     name: "Michael Lee",
     feedback: "A reliable platform for robotic innovation. Our go-to solution for engineering needs.",
   },
   {
     id: 5,
-    image: "./src/assets/user2.jpg",
+    image: "/assets/user2.jpg",
     name: "Sophia Brown",
     feedback: "Fantastic customer support and amazing features. Highly recommended!",
   },

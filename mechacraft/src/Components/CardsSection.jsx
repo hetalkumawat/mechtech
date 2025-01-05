@@ -5,17 +5,17 @@ const CardsSection = memo(() => {
   // List of card items
   const cardItems = [
     {
-      image: "./src/assets/drone.webp",
+      image: "/assets/drone.webp",
       alt: "Drone",
       text: "Drones",
     },
     {
-      image: "./src/assets/ar-vr.webp",
+      image: "/assets/ar-vr.webp",
       alt: "AR-VR",
       text: "AR/VR",
     },
     {
-      image: "./src/assets/robotics.png",
+      image: "/assets/robotics.png",
       alt: "Robotics",
       text: "Robotics",
     },
