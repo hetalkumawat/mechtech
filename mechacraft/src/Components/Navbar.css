@@ -1,0 +1,61 @@
+/* Navbar styling */
+.navbar {
+  position: absolute; /* Keep navbar positioned over the hero section */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between; /* Space between the logo and links */
+  align-items: center;
+  padding: 20px 30px; /* Add padding to the top and sides */
+  background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+  backdrop-filter: blur(8px); /* Blur effect for the background */
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Logo styling */
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Navbar list styling */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  align-items: center;
+}
+
+/* Navbar list item styling */
+.navbar li {
+  margin: 0 20px; /* Add spacing between links */
+}
+
+/* Navbar link styling */
+.navbar a {
+  color: #fff; /* White color for the text */
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 0; /* Adjust padding for better spacing */
+  display: block;
+}
+
+/* Navbar link hover effect */
+.navbar a:hover {
+  color: #007bff; /* Change color on hover */
+  text-decoration: underline;
+}
+
+/* Ensuring navbar is not fixed */
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}

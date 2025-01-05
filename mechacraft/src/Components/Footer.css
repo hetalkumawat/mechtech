@@ -1,0 +1,82 @@
+.footer {
+    background-color: #1b1b1b; /* Dark background */
+    color: white;
+    padding: 60px 20px; /* Increased padding for more space */
+    text-align: center;
+    position: relative;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px; /* Space between sections */
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center; /* Center the stats */
+    align-items: center;
+    gap: 60px; /* Increased gap between stats */
+    flex-wrap: wrap;
+  }
+  
+  .stat {
+    font-size: 2rem; /* Increased font size */
+    font-weight: bold;
+  }
+  
+  .stat-number {
+    font-size: 3rem; /* Larger font size for the number */
+    color: #007bff; /* Accent color for the numbers */
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    color: white;
+    font-size: .5 rem; /* Increased font size for the icons */
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .copyright {
+    position: absolute;
+    bottom: 0; /* Aligns it to the bottom of the footer */
+    width: 100%;
+    text-align: center; /* Center the copyright text */
+    background-color: white;
+    color: #007bff;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    color: white;
+    font-size: .5rem; /* Adjust size */
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #007bff; /* Hover color */
+  }
+
+  

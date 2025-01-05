@@ -1,0 +1,101 @@
+/* Hero section styling */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Make it full-screen */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Video container styling */
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure video stays in the background */
+  }
+  
+  /* Video element styling */
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the screen */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Hero text styling */
+  .hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s ease-out forwards; /* Smooth fade-in on initial render */
+  }
+  
+  /* Heading styling */
+  .hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s ease-out 0.5s forwards; /* Smooth fade-in with delay */
+  }
+  
+  /* Paragraph styling */
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s ease-out 1s forwards; /* Smooth fade-in with delay */
+  }
+  
+  /* CTA button styling */
+  .hero-content .cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s ease-out 1.5s forwards; /* Smooth fade-in with delay */
+  }
+  
+  .hero-content .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2.5rem; /* Smaller font for heading */
+    }
+  
+    .hero-content p {
+      font-size: 1.2rem; /* Smaller font for paragraph */
+    }
+  
+    .hero-content .cta-button {
+      font-size: 1rem; /* Smaller button */
+    }
+  }
+  

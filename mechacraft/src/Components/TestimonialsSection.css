@@ -1,0 +1,74 @@
+/* Testimonials Section Styling */
+.testimonials-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: rgba(211, 211, 211, 0.2); /* Light transparent background */
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden; /* Prevent cards from spilling outside */
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Slider Container */
+.testimonial-slider {
+  display: flex;
+  gap: 2rem;
+  animation: slide 20s linear infinite;
+  will-change: transform; /* Optimize for animation */
+}
+
+/* Testimonial Card Styling */
+.testimonial-card {
+  flex: 0 0 300px; /* Fixed width for the cards */
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+}
+
+.testimonial-content {
+  margin-top: 1rem;
+}
+
+.testimonial-feedback {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}
+
+.testimonial-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+/* Continuous Sliding Animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  100% {
+    transform: translateX(-50%); /* End at halfway point */
+  }
+}
+
+.testimonial-slider {
+  position: relative;
+  width: calc(300px * 10); /* Adjust for number of duplicated cards */
+}

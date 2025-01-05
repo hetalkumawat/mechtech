@@ -1,0 +1,95 @@
+/* Partners Section Styling */
+.partners-section {
+  text-align: center;
+  padding: 5rem 0;
+  background-color: #2c3e50; /* Darker background */
+  color: white; /* White text for contrast */
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.partners-section.animate {
+  opacity: 1;
+  animation: fadeIn 1s forwards;
+}
+
+/* Fade-in effect when scrolled into view */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Heading Style */
+.section--heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: white; /* Force white color for heading */
+}
+
+.section--heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+}
+
+/* Partners Container - Center logos */
+.partners-container {
+  display: flex;
+  justify-content: center; /* Center logos horizontally */
+  align-items: center; /* Center logos vertically if needed */
+  flex-wrap: wrap; /* Ensure logos wrap on smaller screens */
+  gap: 2rem; /* Optional: Space between logos */
+}
+
+/* Partner Item Styling */
+.partner-item {
+  width: 15%; /* Adjust width as needed */
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, transform 1s;
+}
+
+/* Staggered Animation for Different Items */
+.staggered-0 {
+  transition-delay: 0.2s;
+}
+
+.staggered-1 {
+  transition-delay: 0.4s;
+}
+
+.staggered-2 {
+  transition-delay: 0.6s;
+}
+
+.staggered-3 {
+  transition-delay: 0.8s;
+}
+
+.staggered-4 {
+  transition-delay: 1s;
+}
+
+/* Slide-in Animation */
+.partner-item.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Partner Logo Styling */
+.partner-logo {
+  width: 100%; /* Ensure logos take up full width of the partner item */
+  height: auto;
+  object-fit: contain;
+}
